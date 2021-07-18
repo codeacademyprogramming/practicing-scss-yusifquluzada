@@ -1,0 +1,40 @@
+html {
+  font-family: "Arial", "sans-serif"; }
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  nav svg {
+    width: 10%;
+    object-fit: cover; }
+  nav ul {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+    nav ul li {
+      width: 20%; }
+      nav ul li a {
+        padding: 8px 16px;
+        text-decoration: none;
+        color: black; }
+        nav ul li a:hover {
+          background-color: black;
+          color: yellow; }
+
+.container {
+  width: 80%;
+  margin: 16px auto; }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }

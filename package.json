@@ -1,0 +1,16 @@
+{
+  "name": "p123-scss-lecture",
+  "version": "1.0.0",
+  "description": "p123 is learning scss",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass ./assets/scss/main.scss ./assets/css/style.css",
+    "watch-sass": "node-sass ./assets/scss/main.scss ./assets/css/style.css -w"
+  },
+  "keywords": [],
+  "author": "agilatakishiyev",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
