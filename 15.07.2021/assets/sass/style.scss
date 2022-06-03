@@ -1,0 +1,31 @@
+$cols: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
+
+@each $i in $cols {
+  .col-#{$i} {
+    width: $i/12 * 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  @each $i in $cols {
+    .col-md-#{$i} {
+      width: $i/12 * 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  @each $i in $cols {
+    .col-lg-#{$i} {
+      width: $i/12 * 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  @each $i in $cols {
+    .col-xl-#{$i} {
+      width: $i/12 * 100%;
+    }
+  }
+}
